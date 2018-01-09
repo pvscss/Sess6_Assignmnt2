@@ -1,0 +1,6 @@
+Task 1 : 
+ggplot(data,aes(y=fare,x=factor(pclass)))+geom_boxplot()+
+    labs(x='PClass',y="Fare",title="Fare v/s PClass")
+
+Task 2:
+ggplot(data,aes(x=factor(pclass),fill=factor(sex)))+geom_bar(position="dodge")
